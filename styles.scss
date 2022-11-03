@@ -12,14 +12,103 @@
     color:rgb(168, 6, 98)
 }
 
-.naviagation__list {
+.navigation__list {
     list-style: none;
     display: flex;
     margin-top: 9%;
     margin-left:15%;
     gap:15px;
-     &__item {
+
+     &__item__a {
     color: rgb(157, 5, 5);
-    list-style: none;
+    text-decoration: none;
 }
+}
+.main__titulo {
+    color:rgb(122, 6, 168);
+}
+
+.section {
+    display: flex;
+    &__img__lago {
+        width: 90%;
+        display: flex;
+        
+    }
+}
+.btn-1 {
+    width:90% ;
+    margin-top: 2%;
+    background-color: rgb(81, 81, 189);
+    color: white;
+    padding: 3%;
+    border: none;
+}
+
+.section-2 {
+    display: flex;
+       &__img2__house {
+        width: 90%;
+        &__name {
+            color: rgb(122, 6, 168);
+            &__price{
+                color:rgb(157, 5, 5);
+                   &__p {
+                    width:90% ;
+                    text-align: justify;
+                   }
+            }
+        }
+       }
+        
+       
+}
+
+.btn-2 {
+    width:90% ;
+    margin-top:3% ;
+    padding: 3%;
+    background-color: rgb(81, 81, 189);
+    border: none;
+    color: white;
+}
+
+.contact {
+    color: rgb(122, 6, 168);
+    text-align:center ;
+    margin-top: 5%;
+}
+.form {
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    &__label {
+        margin: 1%;
+        &__input {
+            border-color: palevioletred;
+            padding: 0.5%;
+            &__i3 {
+                border-color: palevioletred;
+            padding: 4%;
+            }
+        }
+    }
+}
+
+.button {
+    margin: 2%;
+    background-color:orangered ;
+    border:none ;
+    padding: 1%;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(5, 224, 244);
+    padding: 1%;
+      &__p {
+        color:rgb(168, 6, 98);
+         text-align: center;
+    }
 }

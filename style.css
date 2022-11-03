@@ -1,3 +1,116 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 
+.header {
+  display: flex;
+  width: 100%;
+  background-color: rgb(5, 224, 244);
+}
+
+.titulo__one {
+  color: rgb(168, 6, 98);
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  margin-top: 9%;
+  margin-left: 15%;
+  gap: 15px;
+}
+.navigation__list__item__a {
+  color: rgb(157, 5, 5);
+  text-decoration: none;
+}
+
+.main__titulo {
+  color: rgb(122, 6, 168);
+}
+
+.section {
+  display: flex;
+}
+.section__img__lago {
+  width: 90%;
+  display: flex;
+}
+
+.btn-1 {
+  width: 90%;
+  margin-top: 2%;
+  background-color: rgb(81, 81, 189);
+  color: white;
+  padding: 3%;
+  border: none;
+}
+
+.section-2 {
+  display: flex;
+}
+.section-2__img2__house {
+  width: 90%;
+}
+.section-2__img2__house__name {
+  color: rgb(122, 6, 168);
+}
+.section-2__img2__house__name__price {
+  color: rgb(157, 5, 5);
+}
+.section-2__img2__house__name__price__p {
+  width: 90%;
+  text-align: justify;
+}
+
+.btn-2 {
+  width: 90%;
+  margin-top: 3%;
+  padding: 3%;
+  background-color: rgb(81, 81, 189);
+  border: none;
+  color: white;
+}
+
+.contact {
+  color: rgb(122, 6, 168);
+  text-align: center;
+  margin-top: 5%;
+}
+
+.form {
+  margin-top: 5%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+  margin: 1%;
+}
+.form__label__input {
+  border-color: palevioletred;
+  padding: 0.5%;
+}
+.form__label__input__i3 {
+  border-color: palevioletred;
+  padding: 4%;
+}
+
+.button {
+  margin: 2%;
+  background-color: orangered;
+  border: none;
+  padding: 1%;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(5, 224, 244);
+  padding: 1%;
+}
+.footer__p {
+  color: rgb(168, 6, 98);
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
