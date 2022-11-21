@@ -3,10 +3,15 @@
   padding: 0%;
 }
 
+body {
+  margin: 5%;
+}
+
 .header {
   display: flex;
-  width: 100%;
+  width: 93.5%;
   background-color: rgb(5, 224, 244);
+  padding: 2%;
 }
 
 .titulo__one {
@@ -27,14 +32,18 @@
 
 .main__titulo {
   color: rgb(122, 6, 168);
+  margin-top: 1%;
 }
 
 .section {
   display: flex;
+  margin-top: 2%;
+  width: 100%;
 }
 .section__img__lago {
   width: 90%;
   display: flex;
+  gap: 2%;
 }
 
 .btn-1 {
@@ -48,6 +57,7 @@
 
 .section-2 {
   display: flex;
+  margin-top: 3%;
 }
 .section-2__img2__house {
   width: 90%;
@@ -80,7 +90,7 @@
 
 .form {
   margin-top: 5%;
-  width: 90%;
+  width: 98%;
   display: flex;
   flex-direction: column;
 }
@@ -97,14 +107,16 @@
 }
 
 .button {
-  margin: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   background-color: orangered;
   border: none;
   padding: 1%;
+  width: 8%;
 }
 
 .footer {
-  width: 100%;
+  width: 97%;
   background-color: rgb(5, 224, 244);
   padding: 1%;
 }
